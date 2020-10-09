@@ -18,7 +18,7 @@
 ;Loads Selected Day
 
 
-;Search For a special Kayword
+;Search For a special Keyword
 (defun fefe-search ()
   (interactive)
   (eww  (concat "https://blog.fefe.de/?q=" (read-string "Enter Keyword(Case Sensitive):")))
